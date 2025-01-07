@@ -1,0 +1,34 @@
+/* Fondo general */
+.grid-pane {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #000000;
+    -fx-padding: 5 10;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+}
+
+.button:hover {
+    -fx-background-color: #aaaaaa;
+}
+
+/* Estilo para los campos de texto */
+.text-field, .text-area {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 5;
+    -fx-font-size: 12px;
+}
+
+.text-field:focused, .text-area:focused {
+    -fx-border-color: #888888;
+}
+
